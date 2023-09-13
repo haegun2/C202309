@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+	char name;
+
+	printf("¿Ã∏ß? :");
+
+
+
+	return 0;
+}

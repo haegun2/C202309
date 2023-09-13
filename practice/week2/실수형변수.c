@@ -6,6 +6,7 @@ int main(void) {
 
 	double pi2 = 3.141;
 	printf("%.3lf", pi2);
+	//실수 형은 .n n자리로 가능
 
 	return 0;
 }
