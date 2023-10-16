@@ -2,11 +2,13 @@
 
 int hapf(int value); //함수원형 지정
 
-void main()
+int main()
 {
 	printf("1부터 10까지의 합은 %d\n", hapf(10));
 	printf("1부터 100까지의 합은 %d\n", hapf(100));
 	printf("1부터 1000까지의 합은 %d\n", hapf(1000)); //각각 합할 값을 지정후 출력
+
+	return 0;
 }
 
 int hapf(int value)//함수로 들어옴

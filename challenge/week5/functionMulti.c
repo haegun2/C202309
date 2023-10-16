@@ -2,14 +2,16 @@
 
 long multiF(long value); //함수원형 지정
 
-void main()
+int main()
 {
-	printf("1부터 2까지의 곱은 %d\n", multiF(2));
-	printf("1부터 3까지의 곱은 %d\n", multiF(3));
-	printf("1부터 5까지의 곱은 %d\n", multiF(5));
+	printf("1부터 2까지의 곱은 %ld\n", multiF(2));
+	printf("1부터 3까지의 곱은 %ld\n", multiF(3));
+	printf("1부터 5까지의 곱은 %ld\n", multiF(5));
+
+	return 0;
 }
 
-long multiF(int value)//함수값 들어옴
+long multiF(long value)//함수값 들어옴
 {
 	int i = 1;
 	int multi = 1; //곱하기니까 0으로 변수초기화 함..
